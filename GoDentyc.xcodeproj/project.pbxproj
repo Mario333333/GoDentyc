@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A75F9AA421F4C3E8F9A38F2 /* Pods_GoDentyc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEEFA268EE3570AD4D1FC40 /* Pods_GoDentyc.framework */; };
+		471D8425256C63FE00D64E8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 471D8424256C63FE00D64E8A /* GoogleService-Info.plist */; };
+		47479BF525AFE35300988C61 /* Submodules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47479BF425AFE35300988C61 /* Submodules.swift */; };
+		475F35672570186100F21577 /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F35662570186100F21577 /* NetworkingProvider.swift */; };
+		475F356B25703AB900F21577 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475F356A25703AB900F21577 /* Services.swift */; };
+		47644E21256843D100C9D1E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47644E20256843D100C9D1E1 /* AppDelegate.swift */; };
+		47644E23256843D100C9D1E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47644E22256843D100C9D1E1 /* SceneDelegate.swift */; };
+		47644E25256843D100C9D1E1 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47644E24256843D100C9D1E1 /* AuthViewController.swift */; };
+		47644E28256843D100C9D1E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47644E26256843D100C9D1E1 /* Main.storyboard */; };
+		47644E2A256843D200C9D1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47644E29256843D200C9D1E1 /* Assets.xcassets */; };
+		47644E2D256843D200C9D1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47644E2B256843D200C9D1E1 /* LaunchScreen.storyboard */; };
+		479E89D9256C6AD8001A6DC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479E89D7256C6AD8001A6DC1 /* HomeViewController.swift */; };
+		479E89DA256C6AD8001A6DC1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479E89D8256C6AD8001A6DC1 /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0380C7E7242E5DC767C6DA33 /* Pods-GoDentyc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoDentyc.release.xcconfig"; path = "Target Support Files/Pods-GoDentyc/Pods-GoDentyc.release.xcconfig"; sourceTree = "<group>"; };
+		471D8424256C63FE00D64E8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47479BF425AFE35300988C61 /* Submodules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submodules.swift; sourceTree = "<group>"; };
+		475D41C7257884E100EACDDE /* GoDentyc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoDentyc.entitlements; sourceTree = "<group>"; };
+		475F35662570186100F21577 /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
+		475F356A25703AB900F21577 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		47644E1D256843D100C9D1E1 /* GoDentyc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoDentyc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47644E20256843D100C9D1E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47644E22256843D100C9D1E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47644E24256843D100C9D1E1 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		47644E27256843D100C9D1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47644E29256843D200C9D1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47644E2C256843D200C9D1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47644E2E256843D200C9D1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479E89D7256C6AD8001A6DC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		479E89D8256C6AD8001A6DC1 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4A3D4DD702B1A9AD22FB7F22 /* Pods-GoDentyc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoDentyc.debug.xcconfig"; path = "Target Support Files/Pods-GoDentyc/Pods-GoDentyc.debug.xcconfig"; sourceTree = "<group>"; };
+		8BEEFA268EE3570AD4D1FC40 /* Pods_GoDentyc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoDentyc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47644E1A256843D100C9D1E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A75F9AA421F4C3E8F9A38F2 /* Pods_GoDentyc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475F356925703A9000F21577 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				475F356A25703AB900F21577 /* Services.swift */,
+				47479BF425AFE35300988C61 /* Submodules.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		47644E14256843D100C9D1E1 = {
+			isa = PBXGroup;
+			children = (
+				47644E1F256843D100C9D1E1 /* GoDentyc */,
+				47644E1E256843D100C9D1E1 /* Products */,
+				66DB88134732FC1A574ED4B2 /* Pods */,
+				A64F0CF512989B6998CEA9E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47644E1E256843D100C9D1E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47644E1D256843D100C9D1E1 /* GoDentyc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47644E1F256843D100C9D1E1 /* GoDentyc */ = {
+			isa = PBXGroup;
+			children = (
+				475D41C7257884E100EACDDE /* GoDentyc.entitlements */,
+				475F356925703A9000F21577 /* Data */,
+				47644E20256843D100C9D1E1 /* AppDelegate.swift */,
+				47644E22256843D100C9D1E1 /* SceneDelegate.swift */,
+				47644E24256843D100C9D1E1 /* AuthViewController.swift */,
+				47644E26256843D100C9D1E1 /* Main.storyboard */,
+				47644E29256843D200C9D1E1 /* Assets.xcassets */,
+				47644E2B256843D200C9D1E1 /* LaunchScreen.storyboard */,
+				47644E2E256843D200C9D1E1 /* Info.plist */,
+				471D8424256C63FE00D64E8A /* GoogleService-Info.plist */,
+				479E89D7256C6AD8001A6DC1 /* HomeViewController.swift */,
+				479E89D8256C6AD8001A6DC1 /* HomeViewController.xib */,
+				475F35662570186100F21577 /* NetworkingProvider.swift */,
+			);
+			path = GoDentyc;
+			sourceTree = "<group>";
+		};
+		66DB88134732FC1A574ED4B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D4DD702B1A9AD22FB7F22 /* Pods-GoDentyc.debug.xcconfig */,
+				0380C7E7242E5DC767C6DA33 /* Pods-GoDentyc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A64F0CF512989B6998CEA9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BEEFA268EE3570AD4D1FC40 /* Pods_GoDentyc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47644E1C256843D100C9D1E1 /* GoDentyc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47644E31256843D200C9D1E1 /* Build configuration list for PBXNativeTarget "GoDentyc" */;
+			buildPhases = (
+				99906BFC74BCC6126EDD29DE /* [CP] Check Pods Manifest.lock */,
+				47644E19256843D100C9D1E1 /* Sources */,
+				47644E1A256843D100C9D1E1 /* Frameworks */,
+				47644E1B256843D100C9D1E1 /* Resources */,
+				7BBBC8B985384845F2180CE1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoDentyc;
+			productName = GoDentyc;
+			productReference = 47644E1D256843D100C9D1E1 /* GoDentyc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47644E15256843D100C9D1E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					47644E1C256843D100C9D1E1 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 47644E18256843D100C9D1E1 /* Build configuration list for PBXProject "GoDentyc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47644E14256843D100C9D1E1;
+			productRefGroup = 47644E1E256843D100C9D1E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47644E1C256843D100C9D1E1 /* GoDentyc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47644E1B256843D100C9D1E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47644E2D256843D200C9D1E1 /* LaunchScreen.storyboard in Resources */,
+				471D8425256C63FE00D64E8A /* GoogleService-Info.plist in Resources */,
+				479E89DA256C6AD8001A6DC1 /* HomeViewController.xib in Resources */,
+				47644E2A256843D200C9D1E1 /* Assets.xcassets in Resources */,
+				47644E28256843D100C9D1E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BBBC8B985384845F2180CE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoDentyc/Pods-GoDentyc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoDentyc/Pods-GoDentyc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoDentyc/Pods-GoDentyc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99906BFC74BCC6126EDD29DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoDentyc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47644E19256843D100C9D1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47644E25256843D100C9D1E1 /* AuthViewController.swift in Sources */,
+				475F356B25703AB900F21577 /* Services.swift in Sources */,
+				47644E21256843D100C9D1E1 /* AppDelegate.swift in Sources */,
+				47644E23256843D100C9D1E1 /* SceneDelegate.swift in Sources */,
+				47479BF525AFE35300988C61 /* Submodules.swift in Sources */,
+				475F35672570186100F21577 /* NetworkingProvider.swift in Sources */,
+				479E89D9256C6AD8001A6DC1 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47644E26256843D100C9D1E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47644E27256843D100C9D1E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47644E2B256843D200C9D1E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47644E2C256843D200C9D1E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47644E2F256843D200C9D1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47644E30256843D200C9D1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47644E32256843D200C9D1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3D4DD702B1A9AD22FB7F22 /* Pods-GoDentyc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoDentyc/GoDentyc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y93D6BYN9M;
+				INFOPLIST_FILE = GoDentyc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gaytan.GoDentyc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47644E33256843D200C9D1E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0380C7E7242E5DC767C6DA33 /* Pods-GoDentyc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoDentyc/GoDentyc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y93D6BYN9M;
+				INFOPLIST_FILE = GoDentyc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gaytan.GoDentyc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47644E18256843D100C9D1E1 /* Build configuration list for PBXProject "GoDentyc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47644E2F256843D200C9D1E1 /* Debug */,
+				47644E30256843D200C9D1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47644E31256843D200C9D1E1 /* Build configuration list for PBXNativeTarget "GoDentyc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47644E32256843D200C9D1E1 /* Debug */,
+				47644E33256843D200C9D1E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47644E15256843D100C9D1E1 /* Project object */;
+}

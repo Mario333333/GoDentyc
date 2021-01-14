@@ -1,0 +1,6 @@
+framework module Pods_GoDentyc {
+  umbrella header "Pods-GoDentyc-umbrella.h"
+
+  export *
+  module * { export * }
+}
